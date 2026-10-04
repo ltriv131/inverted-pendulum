@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run inverted_pendulum",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "inverted_pendulum",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
