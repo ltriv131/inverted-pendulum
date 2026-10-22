@@ -30,5 +30,5 @@ class Plant:
             x = np.clip(x, lo, hi)
             v = 0.0
 
-        self.state = np.array([x, v, phi, w])+ np.array([0.0, (np.random.random()-0.5)/10.0, 0.0, 0.0])
+        self.state = np.array([x, v, phi, w]) #+ np.array([0.0, (np.random.random()-0.5)/10.0, 0.0, 0.0])
         return self.state
